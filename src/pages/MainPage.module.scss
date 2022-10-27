@@ -1,0 +1,38 @@
+.MainPage{
+    color: #fff;
+
+    .TreeRows{
+        margin: 0 10px;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: space-between;
+        height: 53px;
+        margin: 0;
+        border-top: 1px solid #414144;
+        align-items: center;
+        padding: 0;
+        
+    
+        li{
+            width: 200px;
+        }
+    
+        li:first-child{
+            width: 110px;
+        }
+    
+        li:nth-child(2){
+            width: 757px;
+        }
+    }
+
+    .TreeRows > ul:first-child{
+        li:first-child > img{
+            display: none;
+        }
+    }
+}

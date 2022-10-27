@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.App{
+    background-color: #202124;
+    min-width: 1920px;
+
+    .pageContent{
+        display: flex;
+    }
+}

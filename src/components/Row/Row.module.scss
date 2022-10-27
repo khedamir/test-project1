@@ -1,0 +1,81 @@
+.Row{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    height: 58px;
+    margin: 0;
+    border-top: 1px solid #414144;
+    align-items: center;
+
+    li{
+        width: 200px;
+
+        input{
+            display: none;
+        }
+    }
+
+    .rowActive{
+        input{
+            display: block;
+        }
+
+        span{
+            display: none;
+        }
+    }
+
+    .level{
+        width: 110px;
+        position: relative;
+
+        div{
+            padding: 6px;
+            margin-right: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .dopIcon{
+            display: none;
+        }
+    }
+
+    .Icon{
+        position: relative;
+        z-index: 1;
+        background-color: #202124;
+    }
+
+    .levelActive{
+        div{
+
+            background-color: #414144;
+            position: relative;
+            z-index: 1;
+            border-radius: 4px;
+        }
+
+        .Icon{
+            background-color: #414144;
+            cursor: pointer;
+        }
+
+        .dopIcon{
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+
+    li:nth-child(2){
+        width: 757px;
+    }
+
+
+    .Line{
+        position: absolute;
+        bottom: 15px;
+    }
+}
